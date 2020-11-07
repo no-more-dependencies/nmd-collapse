@@ -1,4 +1,4 @@
-# nmd-collapse
+# nmd-collapse [![npm](https://img.shields.io/npm/v/nmd-collapse?style=for-the-badge)](https://www.npmjs.com/package/nmd-collapse)
 
 Hide and reveal your content easily and with style with this simple web component.
 
