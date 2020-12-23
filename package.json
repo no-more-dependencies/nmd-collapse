@@ -1,6 +1,6 @@
 {
 	"name": "nmd-collapse",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Web component for hiding and revealing content",
 	"main": "./js/nmd-collapse.js",
 	"browser": "./dist/nmd-collapse.js",

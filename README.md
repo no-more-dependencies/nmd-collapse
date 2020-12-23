@@ -8,18 +8,21 @@ Hide and reveal your content easily and with style with this simple web componen
 	with default animation and duration (0.5s)
 </nmd-collapse>
 <button type="button" onclick="this.previousElementSibling.toggle()">Whack-A-Mole 1</button>
+
 <nmd-collapse animation="simple" duration="1.5s">
 	mole 2<br>
 	with custom duration and same animation as before just set explicitly
 </nmd-collapse>
 <button type="button" onclick="this.previousElementSibling.toggle()">Whack-A-Mole 2</button>
+
 <nmd-collapse animation="squish">
 	mole 3<br>
 	poor mole...
 </nmd-collapse>
 <button type="button" onclick="this.previousElementSibling.toggle()">Whack-A-Mole 3</button>
-<nmd-collapse animation="flip">
-	mole 4<br>
+
+<nmd-collapse animation="flip" hidden>
+	mole 4 begins hidden<br>
 	yeet him away<br>
 	<button type="button" onclick="this.parentElement.collapse()">Whack-A-Mole 4</button>
 	<nmd-collapse animation="shrink">

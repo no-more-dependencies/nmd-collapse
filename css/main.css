@@ -14,6 +14,10 @@ nmd-collapse::part(content-container) {
 	overflow: auto;
 }
 
+nmd-collapse[hidden] {
+	display: none;
+}
+
 nmd-collapse[collapsing] {
 	animation-direction: normal;
 	height: 0;

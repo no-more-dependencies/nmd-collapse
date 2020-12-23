@@ -46,6 +46,7 @@ export default
 	}
 
 	expand() {
+		this.hidden = false;
 		this.removeAttribute("collapsing");
 		this.setCalculatedHeight();
 		this.setAttribute("expanding", "");
