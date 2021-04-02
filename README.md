@@ -2,6 +2,8 @@
 
 Hide and reveal your content easily and with style with this simple web component.
 
+[Demo](https://no-more-dependencies.github.io/#nmd-collapse)
+
 ```
 <nmd-collapse>
 	mole 1<br>
